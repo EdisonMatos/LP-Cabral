@@ -2,8 +2,8 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import LogoDisplayMore from "../sectionElements/LogoDisplayMore";
-import trustedByImg1 from "../../assets/imgs/trustedBy/item1.png";
-import trustedByImg2 from "../../assets/imgs/trustedBy/item2.png";
+import trustedByImg1 from "../../assets/imgs/trustedBy/item1.webp";
+import trustedByImg2 from "../../assets/imgs/trustedBy/item2.webp";
 
 const images = [
   {
