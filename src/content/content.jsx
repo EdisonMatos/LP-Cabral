@@ -191,8 +191,7 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito Previdenciário",
-        subtitle:
-          "Planejamento e benefícios para garantir segurança no presente e no futuro.",
+        subtitle: "Planejamento e benefícios junto ao INSS.",
         description: (
           <div>
             A_Definir
@@ -225,8 +224,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Aposentadorias e Revisões",
-        subtitle:
-          "Auxílio especializado para conquistar ou revisar sua aposentadoria com justiça.",
+        subtitle: "Revisão e pedidos de aposentadoria no INSS.",
         description: (
           <div>
             A_Definir
@@ -262,8 +260,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Direito Trabalhista",
-        subtitle:
-          "Defesa dos direitos do trabalhador em relações empregatícias e demissionais.",
+        subtitle: "Defesa em causas trabalhistas e demissionais.",
         description: (
           <div>
             A_Definir <br />
@@ -297,8 +294,7 @@ const content = {
       card4: {
         img: featuresImg4,
         title: "Verbas Rescisórias e Indenizações",
-        subtitle:
-          "Atuação firme na cobrança de valores devidos após demissão ou injustiças no trabalho.",
+        subtitle: "Cobrança de valores após demissão injusta.",
         description: (
           <div>
             A_Definir
@@ -330,8 +326,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Conflitos contratuais, familiares e patrimoniais.",
         description: (
           <div>
             A_Definir
@@ -352,11 +348,49 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Direito Criminal",
+        subtitle: "Defesa em investigações e processos criminais. ",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
