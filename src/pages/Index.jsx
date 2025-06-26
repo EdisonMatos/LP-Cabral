@@ -13,6 +13,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
+import TrustedBy from "../components/sections/TrustedBy";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -48,6 +49,7 @@ export default function Index() {
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
+      <TrustedBy />
       {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
