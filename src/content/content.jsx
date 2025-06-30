@@ -78,6 +78,10 @@ export const infos = {
       <p>Alameda Terracota, nº 185,</p>
       <p>Cerâmica São Caetano do Sul - SP,</p>
       <p>CEP : 09531-190</p>
+      <p>e</p>
+      <p>Alameda Caulim, nº 115, Cerâmica</p>
+      <p>São Caetano do Sul - SP,</p>
+      <p>CEP: 09531-195</p>
     </div>
   ),
   enderecoSecundario: (
